@@ -1,0 +1,539 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"alumno",
+				"alumnoSeleccionar"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"email",
+				"EMAIL"
+			],
+			[
+				"B",
+				"By"
+			],
+			[
+				"A",
+				"AND"
+			],
+			[
+				"compu",
+				"compuA"
+			],
+			[
+				"ap_compu",
+				"ap_compu4"
+			],
+			[
+				"seleccionar",
+				"seleccionarArticulos"
+			],
+			[
+				"menu",
+				"menuAnt"
+			],
+			[
+				"select",
+				"selected"
+			],
+			[
+				"tipo",
+				"tipoParametro"
+			],
+			[
+				"carrera",
+				"carreraId"
+			],
+			[
+				"call_user_func",
+				"call_user_func_array"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"t",
+				"td	Tag"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"medida",
+				"medidaAnt"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"marker",
+				"markerYrigoyen"
+			],
+			[
+				"infoWindo",
+				"infowindow"
+			],
+			[
+				"translate",
+				"translateY"
+			],
+			[
+				"MAt",
+				"Materia_ID"
+			],
+			[
+				"pp",
+				"pp_presencial"
+			],
+			[
+				"materia",
+				"materia_id"
+			],
+			[
+				"comisionma",
+				"comisionmateria"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/kiosco/www",
+		"/var/www/html/kiosco/www/js"
+	],
+	"file_history":
+	[
+		"/var/www/html/kiosco/www/js/funciones.js",
+		"/var/www/html/kiosco/www/js/clases.js",
+		"/var/www/html/kiosco_php/ajax/alumno_seleccionar.php",
+		"/var/www/html/kiosco_php/clases/carrera.php",
+		"/var/www/html/kiosco_php/clases/alumno.php",
+		"/var/www/html/kiosco_php/includes/funciones.php",
+		"/var/www/html/lafundacion/app/core/app.php",
+		"/var/www/html/lafundacion/app/includes/funciones.php",
+		"/var/www/html/kiosco_php/includes.php",
+		"/var/www/html/kiosco/www/index.html",
+		"/var/www/html/kiosco_php/index.php",
+		"/var/www/html/lafundacion/app/ajax/menu-editar.php",
+		"/var/www/html/lafundacion/app/modelos/validador.php",
+		"/var/www/html/mvc/app/controladores/controlador.php",
+		"/tmp/fz3temp-1/ajax_matriculado.php",
+		"/tmp/fz3temp-1/inscribir-autorizar-pago.php",
+		"/tmp/fz3temp-1/inscribir-validar.php",
+		"/tmp/fz3temp-1/funciones.php",
+		"/tmp/fz3temp-1/inscribir.php",
+		"/tmp/fz3temp-1/panel_usuarios_test.php",
+		"/tmp/fz3temp-1/panel_usuarios_ajax.php",
+		"/var/www/html/lafundacion/app/ajax/usuario-login.php",
+		"/var/www/html/kiosco/www/js/index.js",
+		"/var/www/html/kiosco/www/css/estilos.css",
+		"/var/www/html/kiosco/www/notas",
+		"/var/www/html/HolaMundo/www/index.html",
+		"/var/www/html/lafundacion/public/js/funciones.js",
+		"/var/www/html/kiosco/www/css/bootstrap.css",
+		"/tmp/fz3temp-1/shortcode.php",
+		"/tmp/fz3temp-1/kiosco.php",
+		"/tmp/fz3temp-1/kioscoinscripcion_inscripcion.php",
+		"/tmp/fz3temp-1/cursadaactual.php",
+		"/tmp/fz3temp-1/kioscoinscripcion_horarios.php",
+		"/tmp/fz3temp-1/kioscoinscripcion_informes.php",
+		"/var/www/html/instatest/index.php",
+		"/var/www/html/instatest/js/funciones.js",
+		"/home/santiago/Descargas/installer",
+		"/tmp/fz3temp-1/save_operacion.php",
+		"/tmp/fz3temp-1/newalumno2.php",
+		"/tmp/fz3temp-1/db.php",
+		"/tmp/fz3temp-1/newalumno2.js",
+		"/tmp/fz3temp-1/mifaecc-turnos.php",
+		"/tmp/fz3temp-1/newalumno.php",
+		"/tmp/fz3temp-1/mifaecc-admlafundacion.php",
+		"/tmp/fz3temp-1/alumno.php",
+		"/tmp/fz3temp-1/matricular.php",
+		"/var/www/html/test-fechahoralog.php",
+		"/tmp/fz3temp-1/cancelar_inscripcion_act.php",
+		"/tmp/fz3temp-1/cancelar_inscripcion.php",
+		"/tmp/fz3temp-1/conexion_elserver.php",
+		"/tmp/fz3temp-1/alumno_inscripcion.php",
+		"/tmp/fz3temp-1/dbkiosco.php",
+		"/tmp/fz3temp-1/newalumno.js",
+		"/tmp/fz3temp-1/funciones_newalumno.php",
+		"/tmp/fz3temp-1/funciones.js",
+		"/var/www/html/serializar-fecha-faecc.php",
+		"/tmp/fz3temp-1/form-busqueda.php",
+		"/tmp/fz3temp-1/limpieza2.php",
+		"/tmp/fz3temp-1/index.php",
+		"/tmp/fz3temp-1/footer.php",
+		"/tmp/fz3temp-1/estilos 2.css",
+		"/var/www/html/test-fechas.php",
+		"/tmp/fz3temp-1/esperando-turno.php",
+		"/tmp/fz3temp-1/408.php",
+		"/tmp/fz3temp-1/header-turnos.php",
+		"/tmp/fz3temp-1/estilos.css",
+		"/tmp/fz3temp-1/grilla.php",
+		"/tmp/fz3temp-1/.htaccess",
+		"/tmp/fz3temp-1/.htaccess_bkup",
+		"/tmp/fz3temp-1/db-kioscoinscripcion.php",
+		"/tmp/fz3temp-1/comisionmate.php",
+		"/tmp/fz3temp-1/shortcodes.php",
+		"/tmp/fz3temp-1/turnos.php",
+		"/tmp/fz3temp-1/bienvenida_inscripcion_dia_invalido.php",
+		"/tmp/fz3temp-1/inicio_ajax.php",
+		"/tmp/fz3temp-1/chat-mensajesnuevos.php",
+		"/tmp/fz3temp-1/chat.php",
+		"/tmp/fz3temp-1/single-producto.php",
+		"/tmp/fz3temp-1/test_decidir.php",
+		"/var/www/html/lafundacion/app/ajax/articulo-editar.php",
+		"/var/www/html/lafundacion/app/controladores/ctrlarticulo.php",
+		"/var/www/html/lafundacion/app/vistas/section-categorias-editar.php",
+		"/var/www/html/lafundacion/app/modelos/articulo.php",
+		"/var/www/html/lafundacion/app/modelos/alumno.php",
+		"/tmp/fz3temp-1/class-wc-shortcodes.php",
+		"/tmp/fz3temp-1/woocommerce.php",
+		"/var/www/html/cristalesalfonso/cristalesalfonso.sublime-project",
+		"/tmp/fz3temp-1/alumnosnuevos.php",
+		"/tmp/fz3temp-1/bckginsc.php",
+		"/tmp/fz3temp-1/pm_ingresodatos.php",
+		"/tmp/fz3temp-1/pm_formadepago.php",
+		"/tmp/fz3temp-1/form_mensajes.php",
+		"/tmp/fz3temp-1/form_mensajes_accion.php",
+		"/tmp/fz3temp-1/bienvenida_inscripcion.php",
+		"/tmp/fz3temp-1/kioscodirectores.php",
+		"/var/www/html/lafundacion/app/ajax/articulo-borrar.php",
+		"/tmp/fz3temp-1/header.php",
+		"/var/www/html/lafundacion/app/vistas/section-articulos-editar.php",
+		"/tmp/fz3temp-1/class-wc-widget-product-categories.php",
+		"/var/www/html/lafundacion/app/vistas/section-articulos-listar.php",
+		"/var/www/html/lafundacion/app/vistas/section-categorias-listar.php",
+		"/var/www/html/lafundacion/app/controladores/ctrlcategoria.php",
+		"/var/www/html/lafundacion/app/ajax/categoria-editar.php",
+		"/var/www/html/lafundacion/app/modelos/categoria.php",
+		"/var/www/html/lafundacion/app/modelos/pagina.php",
+		"/var/www/html/lafundacion/app/controladores/ctrlpagina.php",
+		"/var/www/html/lafundacion/app/ajax/articulo-nuevo.php",
+		"/var/www/html/lafundacion/app/vistas/section-pagina-listar.php",
+		"/var/www/html/lafundacion/app/vistas/section-articulos-nuevo.php",
+		"/tmp/fz3temp-1/style.css",
+		"/tmp/fz3temp-1/breadcrumb.php",
+		"/var/www/html/lafundacion/app/vistas/slider-carreras-post.php",
+		"/var/www/html/lafundacion/app/vistas/section-carreras-post.php",
+		"/var/www/html/lafundacion/app/controladores/ctrlcarreras.php",
+		"/var/www/html/lafundacion/app/controladores/ctrlphpinfo.php",
+		"/tmp/fz3temp-1/terminosycondiciones.php",
+		"/var/www/html/lafundacion/index.php",
+		"/var/www/html/lafundacion/app/modelos/articulo_old.php",
+		"/var/www/html/lafundacion/app/modelos/categoria_old.php",
+		"/tmp/fz3temp-1/intro_newalumno.php",
+		"/tmp/fz3temp-1/front-page.php",
+		"/var/www/html/chat-test.php",
+		"/var/www/html/set.ini",
+		"/var/www/html/index.php",
+		"/var/www/html/index.html",
+		"/tmp/fz3temp-1/functions.php",
+		"/tmp/fz3temp-1/vac-listar.php",
+		"/tmp/fz3temp-1/empleados-adm.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"array_se",
+			"&",
+			"  console.log(json);",
+			"console",
+			"var",
+			"enviarajax",
+			"glyphicons-halflings-regular.eot",
+			"e003",
+			"aula",
+			"cursada",
+			"id",
+			"instance",
+			"alumno",
+			"carrera",
+			"$r",
+			"site",
+			"bool",
+			"estaAutorizado",
+			"bool",
+			"function getdato(",
+			"resa",
+			"21",
+			"var_d",
+			"var_dump",
+			"admin",
+			"echo",
+			"temp",
+			"h1",
+			"font-size",
+			"inner",
+			"compuA",
+			"msgbox",
+			"mail",
+			"chat",
+			"modificar",
+			"product_categories",
+			"enviarAjax",
+			"matriculado",
+			"ajax",
+			"$(",
+			"ID",
+			"mensajes",
+			"matricular",
+			"faecc",
+			"web_alumno_nuevo.NRODOCPADRE",
+			"bckin",
+			"web_alumno_nuevo.NRODOC",
+			"select",
+			"reportarError",
+			"error1_sql",
+			"id",
+			"borrar",
+			"modificar",
+			"sele",
+			"agregar",
+			"var_",
+			"var_d",
+			"echo",
+			"bd",
+			"home",
+			"espa",
+			"sec",
+			"nombre",
+			"seleccionar",
+			"//$",
+			"file_exists",
+			"$flag",
+			"flag",
+			"\".\";\n",
+			"991px",
+			"97",
+			"ordenarPorOrden",
+			"array_values",
+			"body",
+			"margin-bottom",
+			"body",
+			"margin-bottom",
+			"body",
+			"promo-panel",
+			"body",
+			"h2",
+			"h1",
+			"email",
+			"mail",
+			"modalError",
+			"circulos",
+			"carrera",
+			"var",
+			"2016",
+			"seleccionarProfesores",
+			"pree",
+			"modulo",
+			"tarde",
+			"promo",
+			"font",
+			"novedades",
+			"yrigo",
+			"yrig",
+			"150px",
+			"15px",
+			"modificarOrden",
+			"agregar(",
+			"borrar",
+			"+1",
+			"orden",
+			"agregarSubmenu",
+			"modificarOrden",
+			"agregarSubmenu",
+			"menu",
+			"modificarOrden",
+			"agregar",
+			"modificarPadre",
+			"agregar",
+			"nuevo",
+			"idHijo",
+			"borrarp",
+			"borrarSubmenu",
+			"3",
+			"modificar",
+			"modificarMenuAnterior",
+			"setpadre",
+			"padre",
+			"var_",
+			"padre",
+			"setPadre",
+			"modificar",
+			"select",
+			"var"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" var alumno= JSON.stringify({\n    dni:$(\"#dni\").val()\n  });\n  enviarAjax(\"http://192.168.3.130/kiosco_php/ajax/alumno_seleccionar.php\",{alumno:alumno},false);",
+			"$where = \"\";\n		$issetwhere = false;\n		\n		if($ids!=false){\n			//Cargo todos los tipos de parametro para el bind_param\n			$issetwhere = true;\n			$tipoParametro = \"\";\n			$count = count($ids);\n			$where = \" WHERE id in (\";\n\n			foreach($ids as $i=>$id){\n				\n				$ids[$i] = $id*1;\n\n				$where .=\"?\";\n				$count--;\n				if($count!=0){\n					$where .= \",\";\n				}\n\n				$tipoParametro .= \"i\";\n			}\n			$where .= \")\";\n\n			array_unshift($ids,$tipoParametro);\n		}\n\n		if($url!=false){\n			//Cargo todos los tipos de parametro para el bind_param de url\n\n			if($issetWhere){\n\n				$where .=\" AND\";\n			}else{\n				$issetWhere = true;\n				$where .= \" WHERE\";\n			}\n\n			$where .= \" url=?\";\n			$tipoParametro .= \"s\";\n			$params[] = $url;\n		}\n\n		$q = \"\n			SELECT id,titulo,fech_modif,habilitado,etiqueta,categoria FROM pagina\".$where;\n\n		$stmt = $this->coneccion->prepare($q);\n		echo $q;\n		\n		if($ids!=false){\n			call_user_func_array(array($stmt,\"bind_param\"), refValues($ids));\n		}\n		$stmt->execute();\n		$stmt->bind_result($id,$titulo,$fech_modif,$habilitado,$etiqueta,$categoria);\n		\n		$paginas = array();\n\n		while($stmt->fetch()){\n			$paginas[$id] = new Pagina($this->coneccion,$id,$titulo,$fech_modif,$habilitado,$etiqueta,$categoria);\n		}\n		\n		$stmt->close();\n		return $paginas;\n	}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "kiosco.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
