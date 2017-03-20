@@ -8,13 +8,15 @@
                 <label for='dni'>Ingresa tu DNI</label>
                 <div class="input-group">
                     <input id="dni" type='number' class="form-control" id="dni" placeholder="DNI" ng-model="$ctrl.dni">
-                    <span class="input-group-btn"> 
-                        <button id="btn-dni" type="button" class="btn btn-default">
-                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span> 
+                    <span class="input-group-btn">
+                        <button id="btn-dni" type="button" class="btn btn-default" ng-click="$ctrl.getAlumno()">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                         </button>
                     </span>
                 </div>
             </form>
         </div>
     </div>
+
+    <alumno></alumno>
 </div>
