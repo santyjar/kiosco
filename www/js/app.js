@@ -18,7 +18,7 @@ angular
 
 //Modulo main
 //Trabajar con servicios para conseguir el alumno
-var main = angular.module('main',[]);
+var main = angular.module('main',['ngResource']);
 
 main.component('main',{
 	templateUrl:'template/main.template.html',
@@ -26,8 +26,10 @@ main.component('main',{
 });
 
 main.service('data',function(){
+
+	
 	return {
-		alumno:{
+		alumno: {
 			matricula:'',
 			dni:'',
 			nombre:'',
@@ -37,6 +39,26 @@ main.service('data',function(){
 			cursada:'',
 			parciales:'',
 			tps:'',
+		},
+
+		getAlumnoHttp: function(){
+			var self = this;
+			$http({
+				url:'http://localhost/kiosco_php/ajax/alumno_seleccionar.php',
+				method: 'GET',
+				params:{alumno: {dni:self.alumno.dni}}
+			
+			}).then(function(response){
+
+				if(response.data.resp == true){
+					//self.alumno = response.data.alumno;
+					self.setAlumno(response.data.alumno);
+					console.log(self.alumno);
+				}else{
+
+					console.log('Nook');
+				}
+			});
 		},
 
 		getAlumno: function(){
@@ -49,38 +71,53 @@ main.service('data',function(){
 	}
 });
 
+main.service('alumnoHttp',['$resource',function($resource){
+	return $resource('http://localhost/kiosco_php/ajax/alumno_seleccionar.php?alumno=:alumno',{},{
+		query: {
+			method: 'GET',
+			params: {alumno: {dni:self.alumno.dni}},
+			isArray: true
+		}
+	});
+}]);
+
 main.component('dni',{
 	templateUrl:'template/dni.template.html',
-	controller: ['data',function(data){
-		self = this;
+	controller: ['$http','data',function($http,data){
 
 		this.alumno = data.getAlumno();
-/*
-		this.getAlumno = function(){
-			return data.getAlumno();
+
+		this.getAlumnoHttp = function(){
+
+			//Peticion al servidor por el alumno
+
+			var self = this;
+			$http({
+				url:'http://localhost/kiosco_php/ajax/alumno_seleccionar.php',
+				method: 'GET',
+				params:{alumno: {dni:self.alumno.dni}}
+			
+			}).then(function(response){
+
+				if(response.data.resp == true){
+					//self.alumno = response.data.alumno;
+					self.alumno = response.data.alumno;
+					self.alumno.dni *= 1;
+					console.log(self.alumno);
+				}else{
+
+					console.log('Nook');
+				}
+			});
 		}
 
-		this.setAlumno = function(){
-			console.log(self);
-			data.setAlumno(self.alumno);
-		}*/
 	}]
 });
 
 main.component('alumno',{
 	templateUrl:'template/alumno.template.html',
 	controller: ['data',function(data){
-		self = this;
 		this.alumno = data.getAlumno();
-/*
-		this.getAlumno = function(){
-			return data.getAlumno();
-		}
-
-		this.setAlumno = function(){
-			console.log(self);
-			data.setAlumno(self.alumno);
-		}*/
 	}]
 });
 

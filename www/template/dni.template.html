@@ -3,9 +3,10 @@
     <div class="input-group">
         <input id="dni" type='number' class="form-control" id="dni" placeholder="DNI" ng-model="$ctrl.alumno.dni">
         <span class="input-group-btn">
-        <button id="btn-dni" type="button" class="btn btn-default" ng-click="$ctrl.setAlumno()">
+        <button id="btn-dni" type="button" class="btn btn-default" ng-click="$ctrl.getAlumnoHttp()">
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             </button>
         </span>
+        <p>{{$ctrl.alumno.nombre}}</p>
     </div>
 </form>
