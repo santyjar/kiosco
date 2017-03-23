@@ -1,14 +1,14 @@
 'use strict';
 
-angular.module('kioscoApp',['ngRoute','main','dni','alumno']);
+angular.module('kioscoApp',['ngRoute','main']);
 
 //Modulo kiosco y rutas
 angular
 .module('kioscoApp')
 .config(['$locationProvider','$routeProvider',
 	function config($locationProvider,$routeProvider){
-		$routeProvider.
-		when('/',{
+		$routeProvider
+		.when('/',{
 			template: '<main></main>'
 		});
 	}
@@ -18,95 +18,69 @@ angular
 
 //Modulo main
 //Trabajar con servicios para conseguir el alumno
-angular.module('main',['dni','alumno']);
+var main = angular.module('main',[]);
 
-angular
-.module('main')
-.component('main',{
+main.component('main',{
 	templateUrl:'template/main.template.html',
-
-	controller:function mainController($http){}
+	controller:function mainController(){}
 });
 
+main.service('data',function(){
+	return {
+		alumno:{
+			matricula:'',
+			dni:'',
+			nombre:'',
+			apellido:'',
+			carrera:'',
+			asistencia:'',
+			cursada:'',
+			parciales:'',
+			tps:'',
+		},
 
+		getAlumno: function(){
+			return this.alumno;
+		},
 
+		setAlumno: function(unAlumno){
+			this.alumno = unAlumno;
+		}
+	}
+});
 
-//Modulo alumno
-angular.module('dni',['alumno']);
-
-angular
-.module('dni')
-.component('dni',{
+main.component('dni',{
 	templateUrl:'template/dni.template.html',
-	controller:['factAlumno',
-	function dniController(factAlumno){
-		this.dni = false;
-		this.alumno = false;
-		
+	controller: ['data',function(data){
+		self = this;
+
+		this.alumno = data.getAlumno();
+/*
 		this.getAlumno = function(){
-			this.alumno = factAlumno.getAlumno(this.dni);
+			return data.getAlumno();
 		}
 
-		this.setAlumno = function(prop,dato){
-			factAlumno.set(prop,dato);
-		}
-
-		this.getAlumno();
+		this.setAlumno = function(){
+			console.log(self);
+			data.setAlumno(self.alumno);
+		}*/
 	}]
 });
 
-
-//Modulo alumno
-angular.module('alumno',['ngResource']);
-
-angular
-.module('alumno')
-.component('alumno',{
+main.component('alumno',{
 	templateUrl:'template/alumno.template.html',
-	controller:function alumnoController(){
-		
-	}
-});
-
-//Factory para obtener un alumno
-
-angular.module('alumno')
-.factory('factAlumno',['$http',function($http){
-	this.data = {
-		matricula:false,
-		dni:false,
-		nombre:false,
-		apellido:false,
-		carrera:false,
-		asistencia:false,
-		cursada:false,
-		parciales:false,
-		tps:false
-	}
-
-
-	return {
-		getAlumno: function(dni){
-			console.log(this.data;
-		},
-		set: function(prop,dato){
-			//this.data[prop] = dato;
-			console.log(this);
+	controller: ['data',function(data){
+		self = this;
+		this.alumno = data.getAlumno();
+/*
+		this.getAlumno = function(){
+			return data.getAlumno();
 		}
 
-		/*function(dni){
-			$http({
-				url:'http://localhost/kiosco_php/ajax/alumno_seleccionar.php',
-				method: 'GET',
-				params:{alumno: {dni:self.dni}}
-			}).then(function(response) {
-				if(response.data.resp == true){
-					self.alumno.data = response.data
-				}else{
-
-				}
-			});
-			return self.alumno;
+		this.setAlumno = function(){
+			console.log(self);
+			data.setAlumno(self.alumno);
 		}*/
-	}
-}]);
+	}]
+});
+

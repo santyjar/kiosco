@@ -5,7 +5,7 @@
 		[
 			[
 				"template",
-				"templateUrl"
+				"template"
 			],
 			[
 				"alumno",
@@ -119,6 +119,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "js/app_old.js",
+			"settings":
+			{
+				"buffer_size": 2038,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 570,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "template/alumno.template.html",
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "template/main.template.html",
+			"settings":
+			{
+				"buffer_size": 233,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "template/dni.template.html",
+			"settings":
+			{
+				"buffer_size": 513,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "notas",
+			"settings":
+			{
+				"buffer_size": 31,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -154,10 +202,15 @@
 	[
 		"/var/www/html/kiosco/www",
 		"/var/www/html/kiosco/www/css",
+		"/var/www/html/kiosco/www/js",
 		"/var/www/html/kiosco/www/template"
 	],
 	"file_history":
 	[
+		"/tmp/fz3temp-1/shortcodes.php",
+		"/tmp/fz3temp-1/kioscoinscripcion_horarios.php",
+		"/tmp/fz3temp-1/inicio.php",
+		"/tmp/fz3temp-1/kioscodirectores.php",
 		"/var/www/html/kiosco/www/css/estilos.css",
 		"/var/www/html/kiosco/www/template/main.template.html",
 		"/var/www/html/kiosco/www/notas",
@@ -207,7 +260,6 @@
 		"/tmp/fz3temp-1/kiosco.php",
 		"/tmp/fz3temp-1/kioscoinscripcion_inscripcion.php",
 		"/tmp/fz3temp-1/cursadaactual.php",
-		"/tmp/fz3temp-1/kioscoinscripcion_horarios.php",
 		"/tmp/fz3temp-1/kioscoinscripcion_informes.php",
 		"/var/www/html/instatest/index.php",
 		"/var/www/html/instatest/js/funciones.js",
@@ -246,7 +298,6 @@
 		"/tmp/fz3temp-1/.htaccess_bkup",
 		"/tmp/fz3temp-1/db-kioscoinscripcion.php",
 		"/tmp/fz3temp-1/comisionmate.php",
-		"/tmp/fz3temp-1/shortcodes.php",
 		"/tmp/fz3temp-1/turnos.php",
 		"/tmp/fz3temp-1/bienvenida_inscripcion_dia_invalido.php",
 		"/tmp/fz3temp-1/inicio_ajax.php",
@@ -268,7 +319,6 @@
 		"/tmp/fz3temp-1/form_mensajes.php",
 		"/tmp/fz3temp-1/form_mensajes_accion.php",
 		"/tmp/fz3temp-1/bienvenida_inscripcion.php",
-		"/tmp/fz3temp-1/kioscodirectores.php",
 		"/var/www/html/lafundacion/app/ajax/articulo-borrar.php",
 		"/tmp/fz3temp-1/header.php",
 		"/var/www/html/lafundacion/app/vistas/section-articulos-editar.php",
@@ -284,8 +334,7 @@
 		"/var/www/html/lafundacion/app/vistas/section-pagina-listar.php",
 		"/var/www/html/lafundacion/app/vistas/section-articulos-nuevo.php",
 		"/tmp/fz3temp-1/style.css",
-		"/tmp/fz3temp-1/breadcrumb.php",
-		"/var/www/html/lafundacion/app/vistas/slider-carreras-post.php"
+		"/tmp/fz3temp-1/breadcrumb.php"
 	],
 	"find":
 	{
@@ -303,6 +352,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dni",
+			"horarios",
+			"con",
+			"console",
+			"getAlumno",
 			"unifiServer",
 			"usuario",
 			"anio",
@@ -425,12 +479,7 @@
 			"borrarp",
 			"borrarSubmenu",
 			"3",
-			"modificar",
-			"modificarMenuAnterior",
-			"setpadre",
-			"padre",
-			"var_",
-			"padre"
+			"modificar"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -451,8 +500,326 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "js/app_old.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2038,
+								2038
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1490185450.62
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1537.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1490185450.62
+							},
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "template/alumno.template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hex",
+									"hsl",
+									"hex_compressed",
+									"webcolors",
+									"hsla",
+									"rgba",
+									"rgb"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".html",
+								"current_syntax": "HTML/HTML",
+								"enabled": true,
+								"last_updated": 1490185450.62,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.declaration-list.css -support.type.property-name.css -comment -string",
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "template/main.template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hex",
+									"hsl",
+									"hex_compressed",
+									"webcolors",
+									"hsla",
+									"rgba",
+									"rgb"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".html",
+								"current_syntax": "HTML/HTML",
+								"enabled": true,
+								"last_updated": 1490185450.62,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.declaration-list.css -support.type.property-name.css -comment -string",
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "template/dni.template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hex",
+									"hsl",
+									"hex_compressed",
+									"webcolors",
+									"hsla",
+									"rgba",
+									"rgb"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".html",
+								"current_syntax": "HTML/HTML",
+								"enabled": true,
+								"last_updated": 1490185450.62,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.declaration-list.css -support.type.property-name.css -comment -string",
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "notas",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": "",
+								"current_syntax": "Text/Plain text",
+								"enabled": false,
+								"last_updated": 1490185450.62
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],

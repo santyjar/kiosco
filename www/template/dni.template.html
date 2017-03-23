@@ -1,9 +1,9 @@
 <form id="form-dni" class='form-group'>
     <label for='dni'>Ingresa tu DNI</label>
     <div class="input-group">
-        <input id="dni" type='number' class="form-control" id="dni" placeholder="DNI" ng-model="$ctrl.dni">
+        <input id="dni" type='number' class="form-control" id="dni" placeholder="DNI" ng-model="$ctrl.alumno.dni">
         <span class="input-group-btn">
-        <button id="btn-dni" type="button" class="btn btn-default" ng-click="$ctrl.setAlumno('dni',$ctrl.dni)">
+        <button id="btn-dni" type="button" class="btn btn-default" ng-click="$ctrl.setAlumno()">
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             </button>
         </span>
