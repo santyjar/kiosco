@@ -1,0 +1,44 @@
+<!-- Modal -->
+<div class="modal fade" id="modal-materia-detalles" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="modalTitle"></h4>
+			</div>
+			<div class="modal-body"  id="modalBody">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="col-xs-12">
+		<h1>Vista Academica de {{$ctrl.vistaAcademica.alumno.nombre}}</h1>
+	</div>
+	<div class="col-md-8 col-md-offset-2 col-xs-12">
+		<div class="panel panel-default" ng-repeat="(anio,porAnio) in $ctrl.vistaAcademica.carrera.materias | groupBy:'anio'" ng-init="mostrar=true">
+			<div class="panel-heading" ng-click="mostrar=!mostrar">
+				<h3 class="panel-title">{{anio}}° Año</h3>
+				<button class="btn btn-default">
+					<span class="glyphicon" aria-hidden="true" ng-class="{'glyphicon-menu-up': mostrar,'glyphicon-menu-down':!mostrar}"></span>
+				</button>
+			</div>
+			<div class="panel-body mostrar" ng-show='mostrar'>
+				<table class="table table-condensed">
+					<tbody ng-repeat="(modulo,mates) in porAnio | groupBy:'modulo'">
+						<tr>
+							<th class="text-center" colspan="2">{{modulo}}° Cuatrimestre</th>
+						</tr>
+						<tr ng-class="getClassXEstado(mate)" ng-repeat="mate in mates" ng-click="mostrarDescripcionMateria(mate)">
+							<td>{{mate.nombre}}</td>
+							<td class="text-center">{{mate.estado.descripcion}}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>

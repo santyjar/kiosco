@@ -1,0 +1,39 @@
+<div class="row">
+	<div class="col-xs-12">
+		<h1>Parciales de {{$ctrl.alumno.nombre}}</h1>
+	</div>
+	<div class="col-md-8 col-md-offset-2 col-xs-12">
+
+		<div class="col-md-8 col-md-offset-2 col-xs-12">
+
+			<div ng-repeat="comision in $ctrl.alumno.cursadaActual.comisiones">
+
+				<div class="panel panel-default" ng-repeat="materia in comision.materias" ng-init="mostrar=true">
+					<div class="panel-heading" ng-click="mostrar=!mostrar">
+						<h3 class="panel-title">{{materia.nombre}}</h3>
+						<button class="btn btn-default">
+							<span class="glyphicon" aria-hidden="true" ng-class="{'glyphicon-menu-up': mostrar,'glyphicon-menu-down':!mostrar}"></span>
+						</button>
+					</div>
+					<div class="panel-body mostrar" ng-show='mostrar'>
+						<table class="table table-condensed">
+							<tbody ng-repeat="calif in materia.calificaciones">
+								<tr>
+									<th class="text-center" colspan="2">{{calif.descEvaluacion}}</th>
+								</tr>
+								<tr>
+									<td>Nota:</td>
+									<td class='text-center'>{{calif.descNota}}</td>
+								</tr>
+								<tr>
+									<td>Fecha:</td>
+									<td class='text-center'>{{calif.fecha}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

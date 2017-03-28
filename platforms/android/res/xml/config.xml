@@ -4,12 +4,12 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>HelloCordova</name>
+    <name>Kiosco MiFaecc</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Realiza tus consultas desde la nueva aplicación de La Fundación.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="santiago@lafundacion.edu.ar" href="http://mifaecc.edu.ar">
+        La Fundación
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -19,6 +19,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <icon src="res/mipmap-mdpi/icon.png" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

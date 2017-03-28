@@ -4,16 +4,128 @@
 		"selected_items":
 		[
 			[
+				"materia",
+				"materiaComision"
+			],
+			[
+				"Materia",
+				"MateriaComision\t(materia_comision.php)"
+			],
+			[
+				"cant",
+				"cantDesaprobados"
+			],
+			[
+				"cursada",
+				"cursadaActualSeleccionar"
+			],
+			[
+				"t_",
+				"t_id"
+			],
+			[
+				"modal",
+				"modalBody"
+			],
+			[
+				"puede",
+				"puedeCursar3ro"
+			],
+			[
+				"get",
+				"getClassXEstado"
+			],
+			[
+				"vista",
+				"vistaAcademica"
+			],
+			[
+				"mat",
+				"matAprobadas"
+			],
+			[
+				"matAprobadas",
+				"matAprobadas1"
+			],
+			[
+				"puedeCursar",
+				"puedeCursar2do"
+			],
+			[
+				"t",
+				"tbody\tTag"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"getId",
+				"getIdPlanEstudio"
+			],
+			[
+				"seleccionar",
+				"seleccionarCarreras"
+			],
+			[
+				"planest",
+				"planestCarreraId"
+			],
+			[
+				"plan",
+				"planestcarrera_id"
+			],
+			[
+				"logo",
+				"logo-faecc"
+			],
+			[
+				"translate",
+				"translate"
+			],
+			[
+				"hegi",
+				"height"
+			],
+			[
+				"planestudio",
+				"planestudioId"
+			],
+			[
+				"alumno",
+				"alumnoJson"
+			],
+			[
+				"modulo",
+				"moduloAct"
+			],
+			[
+				"ciclolect",
+				"cicloLectivoAct"
+			],
+			[
+				"asis",
+				"asistFinal"
+			],
+			[
+				"fec",
+				"fecha"
+			],
+			[
+				"asistencai",
+				"Asistencia"
+			],
+			[
+				"getA",
+				"getAlumno"
+			],
+			[
 				"getAlumno",
 				"getAlumnoHttp"
 			],
 			[
 				"template",
 				"template"
-			],
-			[
-				"alumno",
-				"alumnoSeleccionar"
 			],
 			[
 				"background",
@@ -40,10 +152,6 @@
 				"ap_compu4"
 			],
 			[
-				"seleccionar",
-				"seleccionarArticulos"
-			],
-			[
 				"menu",
 				"menuAnt"
 			],
@@ -65,15 +173,11 @@
 			],
 			[
 				"text",
-				"textarea	Tag"
+				"textarea\tTag"
 			],
 			[
 				"bac",
 				"background-position"
-			],
-			[
-				"t",
-				"td	Tag"
 			],
 			[
 				"border-r",
@@ -100,20 +204,12 @@
 				"infowindow"
 			],
 			[
-				"translate",
-				"translateY"
-			],
-			[
 				"MAt",
 				"Materia_ID"
 			],
 			[
 				"pp",
 				"pp_presencial"
-			],
-			[
-				"materia",
-				"materia_id"
 			],
 			[
 				"comisionma",
@@ -124,51 +220,13 @@
 	"buffers":
 	[
 		{
-			"file": "js/app.js",
+			"file": "/var/www/html/pentecostes2017/index.html",
 			"settings":
 			{
-				"buffer_size": 2430,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/kiosco_php/ajax/alumno_seleccionar.php",
-			"settings":
-			{
-				"buffer_size": 657,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "template/alumno.template.html",
-			"settings":
-			{
-				"buffer_size": 83,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "template/dni.template.html",
-			"settings":
-			{
-				"buffer_size": 548,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "notas",
-			"settings":
-			{
-				"buffer_size": 31,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "template/main.template.html",
-			"settings":
-			{
-				"buffer_size": 233,
-				"line_ending": "Unix"
+				"buffer_size": 549,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "var tag = document.getElementsByClassName(\"_jjzlb\""
 			}
 		}
 	],
@@ -179,18 +237,19 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 96.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 485.0
+		"width": 440.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 126.0,
 		"history":
 		[
+			"cd ~/Library/Application\\ Support/Sublime\\ Text\\ 2/Packages"
 		]
 	},
 	"distraction_free":
@@ -206,146 +265,144 @@
 	[
 		"/var/www/html/kiosco/www",
 		"/var/www/html/kiosco/www/css",
-		"/var/www/html/kiosco/www/js",
-		"/var/www/html/kiosco/www/js/angular",
+		"/var/www/html/kiosco/www/img",
 		"/var/www/html/kiosco/www/template",
-		"/var/www/html/kiosco_php",
-		"/var/www/html/kiosco_php/ajax"
+		"/var/www/html/kiosco_php"
 	],
 	"file_history":
 	[
-		"/var/www/html/kiosco/www/js/app_old.js",
-		"/tmp/fz3temp-1/shortcodes.php",
-		"/tmp/fz3temp-1/kioscoinscripcion_horarios.php",
-		"/tmp/fz3temp-1/inicio.php",
-		"/tmp/fz3temp-1/kioscodirectores.php",
-		"/var/www/html/kiosco/www/css/estilos.css",
-		"/var/www/html/kiosco/www/template/main.template.html",
-		"/var/www/html/kiosco/www/notas",
-		"/var/www/html/kiosco/www/template/alumnoData.template.html",
-		"/var/www/html/kiosco_php/ajax/alumno_seleccionar.php",
-		"/var/www/html/kiosco/www/js/app.js",
-		"/home/santiago/.cache/.fr-iXZJ4o/config.php.inc",
-		"/home/santiago/.cache/.fr-JJAkCC/auth.php",
-		"/home/santiago/.cache/.fr-3k35rg/auth.php",
-		"/home/santiago/.cache/.fr-VRFhFs/index.php",
-		"/home/santiago/.cache/.fr-l3c0q8/config.php.inc",
-		"/tmp/fz3temp-1/alumnosnuevos.php",
-		"/tmp/fz3temp-1/alertas.php",
+		"/var/www/html/kiosco/www/template/cursada-actual-calific.template.html",
+		"/var/www/html/kiosco/www/template/dni.template.html",
+		"/var/www/html/kiosco/www/template/alumno.template.html",
 		"/var/www/html/kiosco/www/index.html",
-		"/var/www/html/kiosco_php/clases/alumno.php",
-		"/var/www/html/angular/angular-phonecat/app/index.html",
-		"/var/www/html/kiosco/www/js/index.js",
-		"/tmp/fz3temp-1/class.db_linux_mssql.php",
-		"/tmp/fz3temp-1/class.mssql.php",
-		"/tmp/fz3temp-1/core.functions.php",
-		"/tmp/fz3temp-1/cargar.php",
-		"/tmp/fz3temp-1/core.actions.php",
-		"/var/www/html/kiosco_php/includes/funciones.php",
-		"/var/www/html/kiosco/www/js/funciones.js",
-		"/var/www/html/kiosco/www/index_old.html",
-		"/var/www/html/kiosco/www/js/clases.js",
+		"/var/www/html/kiosco/www/css/estilos.css",
+		"/var/www/html/kiosco_php/ajax/alumno_seleccionar_inasistencia.php",
+		"/var/www/html/kiosco/www/template/asistencia.template.html",
+		"/var/www/html/kiosco/www/js/vista_academica.js",
+		"/var/www/html/kiosco/www/js/asistencia.js",
+		"/var/www/html/kiosco/www/js/loading.js",
+		"/var/www/html/kiosco/www/js/alerta_com_profesor.js",
+		"/var/www/html/kiosco/www/js/app.js",
+		"/var/www/html/template-turnos/template-turnos.sublime-project",
+		"/var/www/html/kiosco_php/clases/bd/bd_carrera.php",
+		"/var/www/html/kiosco_php/clases/cursada.php",
+		"/var/www/html/kiosco_php/clases/bd/bd_asistencia.php",
+		"/var/www/html/kiosco_php/clases/bd/bd_materia.php",
 		"/var/www/html/kiosco_php/clases/carrera.php",
-		"/var/www/html/lafundacion/app/core/app.php",
-		"/var/www/html/lafundacion/app/includes/funciones.php",
-		"/var/www/html/kiosco_php/includes.php",
-		"/var/www/html/kiosco_php/index.php",
-		"/var/www/html/lafundacion/app/ajax/menu-editar.php",
-		"/var/www/html/lafundacion/app/modelos/validador.php",
-		"/var/www/html/mvc/app/controladores/controlador.php",
-		"/tmp/fz3temp-1/ajax_matriculado.php",
-		"/tmp/fz3temp-1/inscribir-autorizar-pago.php",
-		"/tmp/fz3temp-1/inscribir-validar.php",
-		"/tmp/fz3temp-1/funciones.php",
-		"/tmp/fz3temp-1/inscribir.php",
-		"/tmp/fz3temp-1/panel_usuarios_test.php",
-		"/tmp/fz3temp-1/panel_usuarios_ajax.php",
-		"/var/www/html/lafundacion/app/ajax/usuario-login.php",
-		"/var/www/html/HolaMundo/www/index.html",
-		"/var/www/html/lafundacion/public/js/funciones.js",
-		"/var/www/html/kiosco/www/css/bootstrap.css",
-		"/tmp/fz3temp-1/shortcode.php",
+		"/var/www/html/kiosco/www/template/main.template.html",
+		"/var/www/html/kiosco/www/js/alumno.js",
+		"/var/www/html/kiosco/www/js/dni.js",
+		"/var/www/html/kiosco/www/template/alerta-mat-com-profesor.template.html",
+		"/var/www/html/siga-temp/kiosco/www/template/alerta-desaprobados.template.html",
+		"/var/www/html/siga-temp/kiosco/www/css/estilos.css",
+		"/var/www/html/kiosco_php/includes/include-clases.php",
+		"/var/www/html/kiosco_php/clases/bd/bd_profesor.php",
+		"/var/www/html/kiosco_php/clases/materia_comision.php",
+		"/var/www/html/kiosco_php/ajax/siga/comisionMateria_seleccionar_alerta_profesores2.php",
+		"/var/www/html/kiosco_php/includes/include-bd.php",
+		"/var/www/html/kiosco_php/clases/profesor.php",
+		"/var/www/html/kiosco_php/clases/comision.php",
+		"/var/www/html/kiosco_php/ajax/siga/comisionMateria_seleccionar_alerta_profesores.php",
+		"/var/www/html/kiosco_php/clases/bd/bd_comision.php",
+		"/var/www/html/kiosco_php/clases/materia.php",
+		"/var/www/html/kiosco_php/clases/alumno.php",
+		"/var/www/html/kiosco_php/includes/config.php",
+		"/var/www/html/kiosco_php/ajax/alumno_seleccionar.php",
+		"/var/www/html/kiosco_php/ajax/alumno_seleccionar_alerta.php",
+		"/var/www/html/kiosco_php/ajax/alumno_seleccionar_cursadaactual_calific.php",
+		"/var/www/html/kiosco_php/ajax/alumno_seleccionar_cursadaactual_hs.php",
+		"/var/www/html/kiosco_php/ajax/alumno_seleccionar_datos.php",
+		"/var/www/html/kiosco_php/ajax/alumno_seleccionar_vistaacademica.php",
+		"/var/www/html/kiosco_php/tutor-parciales-desaprobados/clases/alerta_comi_mate.php",
+		"/var/www/html/kiosco_php/clases/ciclo_lectivo.php",
+		"/var/www/html/kiosco_php/ajax/comisionMateria_seleccionar_alerta_profesores.php",
+		"/var/www/html/kiosco_php/clases/bd/bd_calificacion.php",
+		"/var/www/html/kiosco/www/template/vista-academica.template.html",
+		"/var/www/html/kiosco/www/js/cursada_actual_calific.js",
+		"/var/www/html/kiosco/www/js/cursada_actual.js",
+		"/var/www/html/kiosco_php/clases/bd/bd_horario.php",
+		"/var/www/html/kiosco_php/clases/horario_cursada.php",
+		"/var/www/html/kiosco_php/clases/bd/bd_correlativa.php",
+		"/var/www/html/kiosco_php/clases/asistencia.php",
+		"/var/www/html/kiosco_php/clases/vista_academica.php",
 		"/tmp/fz3temp-1/kiosco.php",
-		"/tmp/fz3temp-1/kioscoinscripcion_inscripcion.php",
-		"/tmp/fz3temp-1/cursadaactual.php",
-		"/tmp/fz3temp-1/kioscoinscripcion_informes.php",
-		"/var/www/html/instatest/index.php",
-		"/var/www/html/instatest/js/funciones.js",
-		"/home/santiago/Descargas/installer",
-		"/tmp/fz3temp-1/save_operacion.php",
-		"/tmp/fz3temp-1/newalumno2.php",
-		"/tmp/fz3temp-1/db.php",
-		"/tmp/fz3temp-1/newalumno2.js",
-		"/tmp/fz3temp-1/mifaecc-turnos.php",
-		"/tmp/fz3temp-1/newalumno.php",
-		"/tmp/fz3temp-1/mifaecc-admlafundacion.php",
-		"/tmp/fz3temp-1/alumno.php",
-		"/tmp/fz3temp-1/matricular.php",
-		"/var/www/html/test-fechahoralog.php",
-		"/tmp/fz3temp-1/cancelar_inscripcion_act.php",
-		"/tmp/fz3temp-1/cancelar_inscripcion.php",
-		"/tmp/fz3temp-1/conexion_elserver.php",
-		"/tmp/fz3temp-1/alumno_inscripcion.php",
-		"/tmp/fz3temp-1/dbkiosco.php",
-		"/tmp/fz3temp-1/newalumno.js",
-		"/tmp/fz3temp-1/funciones_newalumno.php",
-		"/tmp/fz3temp-1/funciones.js",
-		"/var/www/html/serializar-fecha-faecc.php",
-		"/tmp/fz3temp-1/form-busqueda.php",
-		"/tmp/fz3temp-1/limpieza2.php",
-		"/tmp/fz3temp-1/index.php",
+		"/tmp/fz3temp-1/shortcodes.php",
+		"/tmp/fz3temp-1/kioscoinscripcion.php",
+		"/var/www/html/kiosco_php/clases/calificacion.php",
+		"/var/www/html/kiosco_php/ajax/alumno_seleccionar_cursadaactual.php",
+		"/var/www/html/kiosco_php/clases/bd/bd_alumno.php",
+		"/var/www/html/kiosco/www/js/local_storage.js",
+		"/var/www/html/test/csv-sql.php",
+		"/tmp/fz3temp-1/functions.php",
+		"/var/www/html/kiosco_php/clases/cursada_actual.php",
+		"/var/www/html/kiosco/www/js/alerta_desaprobados.js",
+		"/var/www/html/kiosco_php/clases/clase.php",
+		"/var/www/html/kiosco_php/clases/turno.php",
+		"/var/www/html/kiosco_php/clases/saldo.php",
+		"/var/www/html/kiosco_php/clases/bd/bd_saldo.php",
+		"/tmp/fz3temp-1/alertas.php",
+		"/tmp/fz3temp-1/edicion_alumno.php",
+		"/tmp/fz3temp-1/class.tv_alumno.php",
+		"/var/www/html/kiosco_php/tutor-parciales-desaprobados/clases/bd/bd_alerta_alumno.php",
+		"/var/www/html/kiosco/www/template/alerta-desaprobados.template.html",
+		"/var/www/html/kiosco_php/clases/bd/bd.php",
+		"/var/www/html/kiosco_php/tutor-parciales-desaprobados/css/estilos.css",
+		"/var/www/html/kiosco_php/tutor-parciales-desaprobados/clases/alerta.php",
+		"/var/www/html/kiosco_php/tutor-parciales-desaprobados/index.php",
+		"/var/www/html/kiosco_php/clases/recuperatorio.php",
+		"/var/www/html/kiosco/www/notas",
+		"/tmp/fz3temp-1/alerta_cron.php",
+		"/tmp/fz3temp-1/class.alumno.php",
+		"/var/www/html/test/localstorage/localstorage.html",
+		"/var/www/html/kiosco/www/template/cursada-actual.template.html",
+		"/var/www/html/kiosco_php/clases/horario.php",
+		"/var/www/html/test/clases-anidadas.php",
+		"/var/www/html/test/remplazar-txt.php",
+		"/var/www/html/kiosco_php/clases/estado.php",
+		"/tmp/fz3temp-1/cargar_ajax.php",
+		"/var/www/html/kiosco_php/conexion.php",
+		"/var/www/html/kiosco_php/includes/funciones.php",
+		"/var/www/html/kiosco_php/index.php",
+		"/var/www/html/kiosco_php/includes/test.php",
+		"/var/www/html/lafundacion/public/css/estilos.css",
+		"/var/www/html/kiosco_php/clases/validar_materia.php",
+		"/tmp/fz3temp-1/style.css",
 		"/tmp/fz3temp-1/footer.php",
-		"/tmp/fz3temp-1/estilos 2.css",
-		"/var/www/html/test-fechas.php",
-		"/tmp/fz3temp-1/esperando-turno.php",
-		"/tmp/fz3temp-1/408.php",
-		"/tmp/fz3temp-1/header-turnos.php",
 		"/tmp/fz3temp-1/estilos.css",
-		"/tmp/fz3temp-1/grilla.php",
-		"/tmp/fz3temp-1/.htaccess",
-		"/tmp/fz3temp-1/.htaccess_bkup",
-		"/tmp/fz3temp-1/db-kioscoinscripcion.php",
-		"/tmp/fz3temp-1/comisionmate.php",
-		"/tmp/fz3temp-1/turnos.php",
-		"/tmp/fz3temp-1/bienvenida_inscripcion_dia_invalido.php",
-		"/tmp/fz3temp-1/inicio_ajax.php",
-		"/tmp/fz3temp-1/chat-mensajesnuevos.php",
-		"/tmp/fz3temp-1/chat.php",
-		"/tmp/fz3temp-1/single-producto.php",
-		"/tmp/fz3temp-1/test_decidir.php",
-		"/var/www/html/lafundacion/app/ajax/articulo-editar.php",
-		"/var/www/html/lafundacion/app/controladores/ctrlarticulo.php",
-		"/var/www/html/lafundacion/app/vistas/section-categorias-editar.php",
-		"/var/www/html/lafundacion/app/modelos/articulo.php",
-		"/var/www/html/lafundacion/app/modelos/alumno.php",
-		"/tmp/fz3temp-1/class-wc-shortcodes.php",
-		"/tmp/fz3temp-1/woocommerce.php",
-		"/var/www/html/cristalesalfonso/cristalesalfonso.sublime-project",
-		"/tmp/fz3temp-1/bckginsc.php",
-		"/tmp/fz3temp-1/pm_ingresodatos.php",
-		"/tmp/fz3temp-1/pm_formadepago.php",
-		"/tmp/fz3temp-1/form_mensajes.php",
-		"/tmp/fz3temp-1/form_mensajes_accion.php",
-		"/tmp/fz3temp-1/bienvenida_inscripcion.php",
-		"/var/www/html/lafundacion/app/ajax/articulo-borrar.php",
 		"/tmp/fz3temp-1/header.php",
-		"/var/www/html/lafundacion/app/vistas/section-articulos-editar.php",
-		"/tmp/fz3temp-1/class-wc-widget-product-categories.php",
-		"/var/www/html/lafundacion/app/vistas/section-articulos-listar.php",
-		"/var/www/html/lafundacion/app/vistas/section-categorias-listar.php",
-		"/var/www/html/lafundacion/app/controladores/ctrlcategoria.php",
-		"/var/www/html/lafundacion/app/ajax/categoria-editar.php",
-		"/var/www/html/lafundacion/app/modelos/categoria.php",
-		"/var/www/html/lafundacion/app/modelos/pagina.php",
-		"/var/www/html/lafundacion/app/controladores/ctrlpagina.php",
-		"/var/www/html/lafundacion/app/ajax/articulo-nuevo.php",
-		"/var/www/html/lafundacion/app/vistas/section-pagina-listar.php",
-		"/var/www/html/lafundacion/app/vistas/section-articulos-nuevo.php",
-		"/tmp/fz3temp-1/style.css"
+		"/tmp/fz3temp-1/wp-config.php",
+		"/tmp/fz3temp-1/index.php",
+		"/tmp/fz3temp-1/wp_bootstrap_navwalker.php",
+		"/var/www/html/kiosco_php/clases/bd/bd_abstract.php",
+		"/var/www/html/kiosco_php/clases/BD/bd_carrera.php",
+		"/var/www/html/kiosco_php/clases/BD/bd_vista_academica.php",
+		"/var/www/html/kiosco_php/clases/BD/bd_abstract.php",
+		"/var/www/html/kiosco_php/clases/BD/bd_materia.php",
+		"/var/www/html/kiosco_php/includes/bd.php",
+		"/var/www/html/kiosco_php/clases/BD/bd_alumno.php",
+		"/var/www/html/kiosco_php/clases/BD/bd.php",
+		"/var/www/html/kiosco_php/clases/DAO/DAO_vista_academica.php",
+		"/tmp/fz3temp-1/alumno_inscripcion.php",
+		"/var/www/html/kiosco/www/template/vistaAcademica.template.html",
+		"/var/www/html/public_html/wp-config.php",
+		"/tmp/fz3temp-1/materia.php",
+		"/tmp/fz3temp-1/alumno.php",
+		"/var/www/html/lafundacion/app/vistas/header.php",
+		"/tmp/fz3temp-1/404.php",
+		"/tmp/fz3temp-1/alumno_seleccionar.php",
+		"/tmp/fz3temp-1/db.php",
+		"/tmp/fz3temp-1/cursada_actual.php",
+		"/var/www/html/kiosco_php/ajax/test.php",
+		"/tmp/fz3temp-1/newalumno.php",
+		"/tmp/fz3temp-1/funciones_newalumno.php",
+		"/tmp/fz3temp-1/newalumno.js",
+		"/var/www/html/kiosco_php/ajax/alumno_seleccionar_inasistencia2.php",
+		"/var/www/html/kiosco_php/includes/jsonClass.php",
+		"/home/santiago/Escritorio/msgstore.db.crypt12"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -359,134 +416,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"form",
+			"background",
+			"form",
+			"dni",
+			"carre",
+			"main",
+			"seleccionarXCarrera",
+			"seleccionar",
+			"a{",
+			"MatComProf",
+			"comProf",
+			"var",
+			"echo",
+			"var_dump",
+			"comision",
+			"panel-heading",
+			"horarios",
+			"%",
+			"correlativasDependientes",
+			"addCorrelativa",
+			"text",
+			"echo",
+			"ech",
+			"va",
+			"vista",
+			"puedeCursar2do",
+			"puedeCursar",
+			"get",
+			"var",
+			"var_",
+			"get",
+			"bd",
+			"setBd",
+			"setbd",
+			"setBd",
+			"Seleccionarcalificaciones",
+			"is_array",
+			"foreach",
+			"bd",
+			"bbd",
+			"bd",
+			"class",
+			"localstorage",
+			"center",
+			"alertaAct",
+			"mostrar",
+			"this",
+			"form",
+			"input",
+			"ROWSPAN",
+			"getCursada",
+			"bd",
+			"parametros",
+			"calific",
+			"true",
+			"parciales",
+			"parcialesDesaprobados_1",
+			"box-s",
+			"box-shadow",
+			"dataCA",
+			"vistaAcademicaSeleccionar",
+			"var",
+			"(){\n",
+			"console.log",
+			"for",
+			"getClassXEstado",
+			"elseif",
+			"console.log",
+			"buscarMateria",
+			"getClassXEstado",
+			"modal",
+			"box",
+			"body",
+			"consol",
+			"console",
+			"for",
+			"materiaaprobada",
+			"elseif",
+			"var",
+			"echo",
+			"INSERT",
+			"var",
+			"materias",
+			"title-informes",
+			"footer",
+			"h5",
+			"49",
+			"jpg",
+			"combo",
+			"ass",
+			"@",
+			"select",
+			"vacad",
+			"nota",
+			"navbar-header",
+			"middle",
+			"hover",
+			"bikinis",
+			"caviar",
+			"carrera_id",
+			"al_carrer",
+			"clase",
+			"Http",
+			"cursada",
+			"asis",
+			";\n",
+			"asistencia",
+			"$this->asistencias",
+			"seleccionarCarreras",
+			"new",
+			"asiste",
+			"[",
+			"fechas",
+			"cursada",
+			"var",
+			"presente",
+			"fechas",
+			"index",
+			"main",
+			"carrera",
+			"localhost",
+			"congres",
+			"alumnoHttp",
 			"dni",
 			"horarios",
 			"con",
 			"console",
-			"getAlumno",
-			"unifiServer",
-			"usuario",
-			"anio",
-			"2016",
-			"array_se",
-			"&",
-			"  console.log(json);",
-			"console",
-			"var",
-			"enviarajax",
-			"glyphicons-halflings-regular.eot",
-			"e003",
-			"aula",
-			"cursada",
-			"id",
-			"instance",
-			"alumno",
-			"carrera",
-			"$r",
-			"site",
-			"bool",
-			"estaAutorizado",
-			"bool",
-			"function getdato(",
-			"resa",
-			"21",
-			"var_d",
-			"var_dump",
-			"admin",
-			"echo",
-			"temp",
-			"h1",
-			"font-size",
-			"inner",
-			"compuA",
-			"msgbox",
-			"mail",
-			"chat",
-			"modificar",
-			"product_categories",
-			"enviarAjax",
-			"matriculado",
-			"ajax",
-			"$(",
-			"ID",
-			"mensajes",
-			"matricular",
-			"faecc",
-			"web_alumno_nuevo.NRODOCPADRE",
-			"bckin",
-			"web_alumno_nuevo.NRODOC",
-			"select",
-			"reportarError",
-			"error1_sql",
-			"id",
-			"borrar",
-			"modificar",
-			"sele",
-			"agregar",
-			"var_",
-			"var_d",
-			"echo",
-			"bd",
-			"home",
-			"espa",
-			"sec",
-			"nombre",
-			"seleccionar",
-			"//$",
-			"file_exists",
-			"$flag",
-			"flag",
-			"\".\";\n",
-			"991px",
-			"97",
-			"ordenarPorOrden",
-			"array_values",
-			"body",
-			"margin-bottom",
-			"body",
-			"margin-bottom",
-			"body",
-			"promo-panel",
-			"body",
-			"h2",
-			"h1",
-			"email",
-			"mail",
-			"modalError",
-			"circulos",
-			"carrera",
-			"var",
-			"2016",
-			"seleccionarProfesores",
-			"pree",
-			"modulo",
-			"tarde",
-			"promo",
-			"font",
-			"novedades",
-			"yrigo",
-			"yrig",
-			"150px",
-			"15px",
-			"modificarOrden",
-			"agregar(",
-			"borrar",
-			"+1",
-			"orden",
-			"agregarSubmenu",
-			"modificarOrden",
-			"agregarSubmenu",
-			"menu",
-			"modificarOrden",
-			"agregar",
-			"modificarPadre",
-			"agregar",
-			"nuevo",
-			"idHijo",
-			"borrarp",
-			"borrarSubmenu",
-			"3",
-			"modificar"
+			"getAlumno"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -496,7 +553,7 @@
 		[
 			"var parentElement = document.getElementById(id);\n        var listeningElement = parentElement.querySelector('.listening');\n        var receivedElement = parentElement.querySelector('.received');\n\n        listeningElement.setAttribute('style', 'display:none;');\n        receivedElement.setAttribute('style', 'display:block;');\n\n        console.log('Received Event: ' + id);",
 			" var alumno= JSON.stringify({\n    dni:$(\"#dni\").val()\n  });\n  enviarAjax(\"http://192.168.3.130/kiosco_php/ajax/alumno_seleccionar.php\",{alumno:alumno},false);",
-			"$where = \"\";\n		$issetwhere = false;\n		\n		if($ids!=false){\n			//Cargo todos los tipos de parametro para el bind_param\n			$issetwhere = true;\n			$tipoParametro = \"\";\n			$count = count($ids);\n			$where = \" WHERE id in (\";\n\n			foreach($ids as $i=>$id){\n				\n				$ids[$i] = $id*1;\n\n				$where .=\"?\";\n				$count--;\n				if($count!=0){\n					$where .= \",\";\n				}\n\n				$tipoParametro .= \"i\";\n			}\n			$where .= \")\";\n\n			array_unshift($ids,$tipoParametro);\n		}\n\n		if($url!=false){\n			//Cargo todos los tipos de parametro para el bind_param de url\n\n			if($issetWhere){\n\n				$where .=\" AND\";\n			}else{\n				$issetWhere = true;\n				$where .= \" WHERE\";\n			}\n\n			$where .= \" url=?\";\n			$tipoParametro .= \"s\";\n			$params[] = $url;\n		}\n\n		$q = \"\n			SELECT id,titulo,fech_modif,habilitado,etiqueta,categoria FROM pagina\".$where;\n\n		$stmt = $this->coneccion->prepare($q);\n		echo $q;\n		\n		if($ids!=false){\n			call_user_func_array(array($stmt,\"bind_param\"), refValues($ids));\n		}\n		$stmt->execute();\n		$stmt->bind_result($id,$titulo,$fech_modif,$habilitado,$etiqueta,$categoria);\n		\n		$paginas = array();\n\n		while($stmt->fetch()){\n			$paginas[$id] = new Pagina($this->coneccion,$id,$titulo,$fech_modif,$habilitado,$etiqueta,$categoria);\n		}\n		\n		$stmt->close();\n		return $paginas;\n	}"
+			"$where = \"\";\n\t\t$issetwhere = false;\n\t\t\n\t\tif($ids!=false){\n\t\t\t//Cargo todos los tipos de parametro para el bind_param\n\t\t\t$issetwhere = true;\n\t\t\t$tipoParametro = \"\";\n\t\t\t$count = count($ids);\n\t\t\t$where = \" WHERE id in (\";\n\n\t\t\tforeach($ids as $i=>$id){\n\t\t\t\t\n\t\t\t\t$ids[$i] = $id*1;\n\n\t\t\t\t$where .=\"?\";\n\t\t\t\t$count--;\n\t\t\t\tif($count!=0){\n\t\t\t\t\t$where .= \",\";\n\t\t\t\t}\n\n\t\t\t\t$tipoParametro .= \"i\";\n\t\t\t}\n\t\t\t$where .= \")\";\n\n\t\t\tarray_unshift($ids,$tipoParametro);\n\t\t}\n\n\t\tif($url!=false){\n\t\t\t//Cargo todos los tipos de parametro para el bind_param de url\n\n\t\t\tif($issetWhere){\n\n\t\t\t\t$where .=\" AND\";\n\t\t\t}else{\n\t\t\t\t$issetWhere = true;\n\t\t\t\t$where .= \" WHERE\";\n\t\t\t}\n\n\t\t\t$where .= \" url=?\";\n\t\t\t$tipoParametro .= \"s\";\n\t\t\t$params[] = $url;\n\t\t}\n\n\t\t$q = \"\n\t\t\tSELECT id,titulo,fech_modif,habilitado,etiqueta,categoria FROM pagina\".$where;\n\n\t\t$stmt = $this->coneccion->prepare($q);\n\t\techo $q;\n\t\t\n\t\tif($ids!=false){\n\t\t\tcall_user_func_array(array($stmt,\"bind_param\"), refValues($ids));\n\t\t}\n\t\t$stmt->execute();\n\t\t$stmt->bind_result($id,$titulo,$fech_modif,$habilitado,$etiqueta,$categoria);\n\t\t\n\t\t$paginas = array();\n\n\t\twhile($stmt->fetch()){\n\t\t\t$paginas[$id] = new Pagina($this->coneccion,$id,$titulo,$fech_modif,$habilitado,$etiqueta,$categoria);\n\t\t}\n\t\t\n\t\t$stmt->close();\n\t\treturn $paginas;\n\t}"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -512,318 +569,31 @@
 			[
 				{
 					"buffer": 0,
-					"file": "js/app.js",
+					"file": "/var/www/html/pentecostes2017/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2430,
+						"buffer_size": 549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1830,
-								1830
+								63,
+								63
 							]
 						],
 						"settings":
 						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
-								"enabled": false,
-								"last_updated": 1490615365.2
-							},
-							"incomplete_sync": null,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1173.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/kiosco_php/ajax/alumno_seleccionar.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 657,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								232,
-								232
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".php",
-								"current_syntax": "PHP/PHP",
-								"enabled": false,
-								"last_updated": 1490268197.9
-							},
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "template/alumno.template.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 83,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66,
-								66
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"allowed_colors":
-								[
-									"hsla",
-									"rgb",
-									"hsl",
-									"rgba",
-									"hex_compressed",
-									"hex",
-									"webcolors"
-								],
-								"compress_hex_output": true,
-								"current_ext": ".html",
-								"current_syntax": "HTML/HTML",
-								"enabled": true,
-								"last_updated": 1490268197.9,
-								"scan_completion_scopes":
-								[
-								],
-								"scan_scopes":
-								[
-									"meta.declaration-list.css -support.type.property-name.css -comment -string",
-									"meta.property-value.css -comment -string",
-									"meta.value.css -comment -string",
-									"meta.tag.inline.any.html string.quoted",
-									"meta.tag.any.html meta.attribute-with-value.style.html"
-								],
-								"use_hex_argb": false
-							},
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
+							"auto_name": "var tag = document.getElementsByClassName(\"_jjzlb\"",
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "template/dni.template.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 548,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								548,
-								548
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"allowed_colors":
-								[
-									"hsla",
-									"rgb",
-									"hsl",
-									"rgba",
-									"hex_compressed",
-									"hex",
-									"webcolors"
-								],
-								"compress_hex_output": true,
-								"current_ext": ".html",
-								"current_syntax": "HTML/HTML",
-								"enabled": true,
-								"last_updated": 1490268197.9,
-								"scan_completion_scopes":
-								[
-								],
-								"scan_scopes":
-								[
-									"meta.declaration-list.css -support.type.property-name.css -comment -string",
-									"meta.property-value.css -comment -string",
-									"meta.value.css -comment -string",
-									"meta.tag.inline.any.html string.quoted",
-									"meta.tag.any.html meta.attribute-with-value.style.html"
-								],
-								"use_hex_argb": false
-							},
-							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "notas",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								31,
-								31
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": "",
-								"current_syntax": "Text/Plain text",
-								"enabled": false,
-								"last_updated": 1490268197.9
-							},
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "template/main.template.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 233,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								209,
-								209
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"allowed_colors":
-								[
-									"hsla",
-									"rgb",
-									"hsl",
-									"rgba",
-									"hex_compressed",
-									"hex",
-									"webcolors"
-								],
-								"compress_hex_output": true,
-								"current_ext": ".html",
-								"current_syntax": "HTML/HTML",
-								"enabled": true,
-								"last_updated": 1490268197.9,
-								"scan_completion_scopes":
-								[
-								],
-								"scan_scopes":
-								[
-									"meta.declaration-list.css -support.type.property-name.css -comment -string",
-									"meta.property-value.css -comment -string",
-									"meta.value.css -comment -string",
-									"meta.tag.inline.any.html string.quoted",
-									"meta.tag.any.html meta.attribute-with-value.style.html"
-								],
-								"use_hex_argb": false
-							},
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -872,7 +642,7 @@
 	"project": "kiosco.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 266.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -910,7 +680,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 170.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

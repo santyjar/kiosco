@@ -4,12 +4,12 @@ version="1.0.0"
 xmlns="http://www.w3.org/ns/widgets" 
 xmlns:cdv="http://cordova.apache.org/ns/1.0"
 xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>HelloCordova</name>
+    <name>Kiosco MiFaecc</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Realiza tus consultas desde la nueva aplicación de La Fundación.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="santiago@lafundacion.edu.ar" href="http://mifaecc.edu.ar">
+        La Fundación
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -27,4 +27,5 @@ xmlns:gap="http://phonegap.com/ns/1.0">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <icon src="res/mipmap-mdpi/icon.png" />
 </widget>

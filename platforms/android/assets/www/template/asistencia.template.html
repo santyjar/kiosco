@@ -1,0 +1,23 @@
+<div class="row">
+	<div class="col-xs-12">
+		<h1>Asistencia de {{$ctrl.alumno.nombre}}</h1>
+	</div>
+	<div class="col-md-8 col-md-offset-2 col-xs-12">
+		<div class="panel panel-default" ng-repeat="asist in $ctrl.alumno.cursadaActual.asistencias" ng-init="mostrar=false">
+			<div class="panel-heading" ng-click="mostrar=!mostrar">
+				<h3 class="panel-title">{{asist.materia.nombre}}</h3>
+				<button class="btn btn-default">
+					<span class="glyphicon" aria-hidden="true" ng-class="{'glyphicon-menu-up': mostrar,'glyphicon-menu-down':!mostrar}"></span>
+				</button>
+			</div>
+			<div class="panel-body mostrar" ng-show='mostrar'>
+				<table class="table table-condensed text-center">
+					<tr ng-repeat="clase in asist.clases">
+						<td>{{clase.fecha}}</td>
+						<td>{{clase.presente}}</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>

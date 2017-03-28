@@ -8,21 +8,55 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <title>Kiosco Consultas</title>
-
-    <script src="js/angular/angular/angular.js"></script>
-    <script src="js/angular/angular-animate/angular-animate.js"></script>
-    <script src="js/angular/angular-resource/angular-resource.js"></script>
-    <script src="js/angular/angular-route/angular-route.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
 </head>
 <body ng-app="kioscoApp">
     <div class="app">
-       <div ng-view></div>
+
+        <header class='navbar-fixed'>
+            <nav class="navbar navbar-default navbar-principal">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/kiosco/www/#/"></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div ng-view></div>
+        </div>
     </div>
+
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- <script type="text/javascript" src="js/funciones.js"></script> -->
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+
+    <!--AngularJS-->
+
+    <script src="js/angular/angular/angular.js"></script>
+    <script src="js/angular/angular-resource/angular-resource.js"></script>
+    <script src="js/angular/angular-animate/angular-animate.js"></script>
+    <script src="js/angular/angular-filter/dist/angular-filter.min.js"></script>
+    <script src="js/angular/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/alumno.js"></script>
+    <script type="text/javascript" src="js/alerta_com_profesor.js"></script>
+    <script type="text/javascript" src="js/asistencia.js"></script>
+    <script type="text/javascript" src="js/vista_academica.js"></script>
+    <script type="text/javascript" src="js/cursada_actual.js"></script>
+    <script type="text/javascript" src="js/cursada_actual_calific.js"></script>
+    <script type="text/javascript" src="js/dni.js"></script>
+    <script type="text/javascript" src="js/alerta_desaprobados.js"></script>
+    <script type="text/javascript" src="js/loading.js"></script>
+
+
+<div ng-controller="loading as l" class="meter-container" ng-class="{'loading-mostrar': loading()}" ">
+    <div class="meter-center">
+        <div class="meter">
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

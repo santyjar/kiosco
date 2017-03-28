@@ -1,3 +1,51 @@
+
+
 NOTAS 
 
 DNI de prueba: 37248537
+
+
+
+//Se puede aplicar Factory method para crear las materias segun la nesesidad.
+//Por ejemplo, si es una cursada voy a necesitar cargar el horario de las materias, pero si es una vista academica no.
+//Otro patron que se puede usar es el builder
+
+Aprobada			7	Equivalencia				Verde
+Aprobada			9	Aprobada				
+Aprobada			11	Pase Directo
+
+Cursada Aprobada	4	Final Regular				Azul
+Cursada Aprobada	5	Final Pendiente
+
+Cursando			1	Regular						
+Cursando			2	Recursada
+
+No cursa			0	No aplicar					Nada
+No cursa			3	Cursada No Aprobada
+No cursa			6	Baja
+No cursa			8	No Aprobada
+No cursa			10	Vencida
+No cursa			12	Baja x Documentación
+No cursa			13	Cur. no aprob.x inasist.
+No cursa			14	Abandonó
+
+No puede cursar										Rojo
+
+
+
+Para cursar:
+	- Materias de 2do	-> 50% de primero aprobado.
+
+	- Materias de 3ro	-> 100% de primero aprobado y 50% de segundo aprobado.
+						-> Deber una materia de primero y tener 100% de segundo aprobado.
+
+
+
+Diferencia de modulo_id:
+	- Se diferencia el modulo_id segun sea de la cursada o del plan de estudio.
+	- Para la clase materia se toma el modulo_id del plan de estudio (al_planes_est_carre_mate)
+	- Para la clase cursada se toma el modulo_id del modulo que se curso (al_alumnos_materias)
+
+CursadaActual:
+	- Si el alumno tiene varias carreras:
+		+tiene varias cursadas actuales o tiene una cursada actual con varias carreras o usa las carreras del alumno y no por si mismo.

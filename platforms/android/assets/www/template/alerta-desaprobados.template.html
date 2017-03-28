@@ -1,0 +1,42 @@
+<!-- Modal -->
+<div class="modal fade" id="modal-alumno-detalles" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="modalTitle"></h4>
+			</div>
+			<div class="modal-body"  id="modalBody">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-12">
+		<h1>Alertas de Parciales Desaprobados</h1>
+	</div>
+
+	<label for="buscar">Matricula: <input id="busqueda" class="form-control" type="text" ng-model="search.matricula" autofocus></label>
+	<table class="table table-bordered">
+		<tr>
+			<th></th>
+			<th>Matricula</th>
+			<th>Nombre</th>
+			<th>Apellido</th>
+			<th>Dni</th>
+			<th>Email</th>
+			<th></th>
+		</tr>
+		<tr ng-repeat="alumno in $ctrl.alumnos | filter:search">
+			<td class="text-center">{{$index+1}}</td>
+			<td class="text-center">{{alumno.matricula}}</td>
+			<td>{{alumno.nombre}}</td>
+			<td>{{alumno.apellido}}</td>
+			<td class="text-center">{{alumno.dni}}</td>
+			<td>{{alumno.email}}</td>
+			<td class="text-center"><button class='btn btn-default' ng-click="mostrarDescripcionAlumno(alumno)">Ver</button></td>
+		</tr>
+	</table>
+</div>

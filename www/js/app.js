@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('kioscoApp',['ngRoute','main']);
+angular.module('kioscoApp',['ngRoute','main','ngAnimate','angular.filter']);
 
 //Modulo kiosco y rutas
 angular
@@ -9,36 +9,41 @@ angular
 	function config($locationProvider,$routeProvider){
 		$routeProvider
 		.when('/',{
-			template: '<main></main>'
+			template: '<dni></dni>'
+		}).when('/alumno/:dni',{
+			template: '<alumno></alumno>'
+		}).when('/asistencia/:dni/:carrera',{
+			template: '<asistencia></asistencia>'
+		}).when('/vista-academica/:dni/:carrera',{
+			template: '<vista-academica></vista-academica>'
+		}).when('/cursada-actual/:dni/:carrera',{
+			template: '<cursada-actual></cursada-actual>'
+		}).when('/cursada-actual-calific/:dni/:carrera',{
+			template: '<cursada-actual-calific></cursada-actual-calific>'
+		}).when('/alerta-desaprobados',{
+			template: '<alerta-desaprobados></alerta-desaprobados>'
+		}).when('/alerta-mat-com-profesor',{
+			template: '<alerta-mat-com-profesor></alerta-mat-com-profesor>'
+		}).otherwise({ 
+			redirectTo: '/' 
 		});
 	}
 	]);
 
-
-
 //Modulo main
-//Trabajar con servicios para conseguir el alumno
-var main = angular.module('main',['ngResource']);
-
-main.component('main',{
-	templateUrl:'template/main.template.html',
-	controller:function mainController(){}
-});
+var main = angular.module('main',['ngResource','angular.filter']);
 
 main.service('data',function(){
-
-	
 	return {
 		alumno: {
 			matricula:'',
 			dni:'',
 			nombre:'',
 			apellido:'',
-			carrera:'',
-			asistencia:'',
-			cursada:'',
+			carreras:'',
+			cursadaActual:'',
 			parciales:'',
-			tps:'',
+			tps:''
 		},
 
 		getAlumno: function(){
@@ -50,60 +55,3 @@ main.service('data',function(){
 		}
 	}
 });
-
-main.service('alumnoHttp',['$resource',function($resource){
-	return $resource('http://localhost/kiosco_php/ajax/alumno_seleccionar.php?alumno=:alumno'/*,{},{
-		query: {
-			method: 'GET',
-			params: {alumno: {dni:self.alumno.dni}},
-			isArray: true
-		}
-	}*/);
-}]);
-
-main.component('dni',{
-	templateUrl:'template/dni.template.html',
-	controller: ['$http','data','alumnoHttp',function($http,data,alumnoHttp){
-		var self = this;
-		this.alumno = data.getAlumno();
-
-		this.getAlumnoHttp = function(){
-			var resp = alumnoHttp.get({dni:self.alumno.dni},function(){
-				//console.log(self.alumno);
-				self.alumno = resp.alumno;
-				data.setAlumno(self.alumno);
-				console.log(data.getAlumno());
-				// Seteo el alumno: data.setAlumno();
-			});
-			//Peticion al servidor por el alumno
-			/*
-			var self = this;
-			$http({
-				url:'http://localhost/kiosco_php/ajax/alumno_seleccionar.php',
-				method: 'GET',
-				params:{alumno: {dni:self.alumno.dni}}
-			
-			}).then(function(response){
-
-				if(response.data.resp == true){
-					//self.alumno = response.data.alumno;
-					self.alumno = response.data.alumno;
-					self.alumno.dni *= 1;
-					console.log(self.alumno);
-				}else{
-
-					console.log('Nook');
-				}
-			});*/
-		}
-
-	}]
-});
-
-main.component('alumno',{
-	templateUrl:'template/alumno.template.html',
-	controller: ['data',function(data){
-		this.alumno = data.getAlumno();
-	}]
-});
-

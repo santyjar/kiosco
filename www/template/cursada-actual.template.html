@@ -1,0 +1,33 @@
+<div class="row">
+	<div class="col-xs-12">
+		<h1>Cursada actual de {{$ctrl.alumno.nombre}}</h1>
+	</div>
+	<div class="col-md-8 col-md-offset-2 col-xs-12">
+	<div class="table-responsive">
+		<table class="table table-bordered">
+			<tr>
+				<th>Carrera</th>
+				<th>Comision</th>
+				<th>Materia</th>
+				<th>Lunes</th>
+				<th>Martes</th>
+				<th>Miercoles</th>
+				<th>Jueves</th>
+				<th>Viernes</th>
+			</tr>
+			<tbody ng-repeat="comi in $ctrl.alumno.cursadaActual.comisiones">
+				<tr ng-repeat="mate in comi.materias">
+					<td>{{comi.carrera.nombre}}</td>
+					<td>{{comi.nombre}}</td>
+					<td>{{mate.nombre}}</td>
+					<td>{{1 | horario:mate.horarios}}</td>
+					<td>{{2 | horario:mate.horarios}}</td>
+					<td>{{3 | horario:mate.horarios}}</td>
+					<td>{{4 | horario:mate.horarios}}</td>
+					<td>{{5 | horario:mate.horarios}}</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+	</div>
+</div>

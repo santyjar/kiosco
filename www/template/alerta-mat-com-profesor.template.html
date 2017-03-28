@@ -1,0 +1,31 @@
+
+
+<div class="row">
+	<div class="col-xs-12">
+		<h1>Alertas de Profesores por Materia.</h1>
+	</div>
+	<div class='col-xs-12'>
+		<a href="http://192.168.3./siga-temp/kiosco/www/#/alerta-desaprobados">Alerta alumnos desaprobados</a>
+	</div>
+	<label for="buscar">Profesor: <input id="busqueda" class="form-control" type="text" ng-model="search.profesor" autofocus></label>
+	<table class="table table-bordered">
+		<tr>
+			<th></th>
+			<th>Carrera</th>
+			<th>Comision</th>
+			<th>Materia</th>
+			<th>Profesor</th>
+			<th>Cant. Desap.</th>
+			<th>Cant. Total</th>
+		</tr>
+		<tr ng-repeat="matCom in $ctrl.matComProf | filter:{profesores:{nombre:search.profesor},materia:search.materia} | orderBy:'matCom.materia.nombre'">
+			<td class="text-center">{{$index+1}}</td>
+			<td>{{matCom.comision.carrera.nombre}}</td>
+			<td>{{matCom.comision.nombre}}</td>
+			<td>{{matCom.materia.nombre}}</td>
+			<td><div ng-repeat="prof in matCom.profesores">{{prof.nombre}}</div></td>
+			<td class="text-center">{{matCom.cantDesaprobados}}</td>
+			<td class="text-center">{{matCom.cantTotal}}</td>
+		</tr>
+	</table>
+</div>
